@@ -5,7 +5,7 @@ Predicting product ratings given user and item features using linear regression.
 ## Overview
 This project builds a regression model to predict how users rate items on an e-commerce platform. The dataset includes user demographics, product category, and price information.
 
-## ⚙️ Steps
+## Steps
 1. Data cleaning and exploration
 2. Feature encoding and selection
 3. Train-test split
