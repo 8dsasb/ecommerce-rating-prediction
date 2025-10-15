@@ -35,7 +35,8 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
 - Baseline Linear Regression reaches RMSE ≈ **1.33–1.36** on the test split(s)
 - Errors suggest nonlinearity and interactions between price/category/user features
-  
+  <img width="737" height="596" alt="image" src="https://github.com/user-attachments/assets/1a6ee207-7986-4889-932d-3e9faf9eaf97" />
+
 ## Future Improvements
 - Add user-item interaction features
 - Try advanced regression models (Ridge, Random Forest)
