@@ -4,13 +4,18 @@ Predicting product ratings given user and item features using linear regression.
 
 ## Overview
 This project builds a regression model to predict how users rate items on an e-commerce platform. The dataset includes user demographics, product category, and price information.
+- Target: numeric rating
+- Model: Linear Regression
+- Key metrics (from notebook runs):
+  - **RMSE ≈ 1.33–1.36**
+  - **MSE ≈ 1.76–1.84** (varies across runs/splits)
 
 ## Steps
-1. Data cleaning and exploration
-2. Feature encoding and selection
-3. Train-test split
-4. Model training using Linear Regression
-5. Evaluation using MAE, MSE, and R²
+1. EDA and cleaning
+2. Feature encoding of categorical variables
+3. Train/test split
+4. Linear Regression baseline
+5. Evaluation with RMSE/MSE
 
 ## Tools & Libraries
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
@@ -28,6 +33,9 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
 **Lowest RMSE**: Approximately 1.30 (Model C)
 
+- Baseline Linear Regression reaches RMSE ≈ **1.33–1.36** on the test split(s)
+- Errors suggest nonlinearity and interactions between price/category/user features
+  
 ## Future Improvements
 - Add user-item interaction features
 - Try advanced regression models (Ridge, Random Forest)
