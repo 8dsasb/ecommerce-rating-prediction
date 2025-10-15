@@ -28,7 +28,7 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
 **Lowest RMSE**: Approximately 1.30 (Model C)
 
-## 💡 Future Improvements
+## Future Improvements
 - Add user-item interaction features
 - Try advanced regression models (Ridge, Random Forest)
 - Perform feature importance analysis
