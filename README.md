@@ -16,9 +16,17 @@ This project builds a regression model to predict how users rate items on an e-c
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
 ## 📈 Results
-- Mean Absolute Error: 0.43
-- R² Score: 0.79
-- Training time: <1s
+**Best performing Model**: Model C
+
+**Worst performing Model**: Model B
+
+**Highest MSE**: Approximately 1.80 (Model B)
+
+**Highest RMSE**: Approximately 1.35 (Model B)
+
+**Lowest MSE**: Approximately 1.72 (Model C)
+
+**Lowest RMSE**: Approximately 1.30 (Model C)
 
 ## 💡 Future Improvements
 - Add user-item interaction features
