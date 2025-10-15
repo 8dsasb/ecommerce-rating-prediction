@@ -2,7 +2,7 @@
 
 Predicting product ratings given user and item features using linear regression.
 
-## 📄 Overview
+## Overview
 This project builds a regression model to predict how users rate items on an e-commerce platform. The dataset includes user demographics, product category, and price information.
 
 ## ⚙️ Steps
@@ -12,10 +12,10 @@ This project builds a regression model to predict how users rate items on an e-c
 4. Model training using Linear Regression
 5. Evaluation using MAE, MSE, and R²
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 Python, Pandas, NumPy, Scikit-learn, Matplotlib
 
-## 📈 Results
+## Results
 **Best performing Model**: Model C
 
 **Worst performing Model**: Model B
